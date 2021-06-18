@@ -23,7 +23,7 @@ while val == 0:
                         maior = num
             if opcao == 'N':
                 media = acum/cont
-                print('Você digitou {} números e a média foi {:.2f}\nO maior valor foi {} e o menor {}'.format(cont,media,maior,menor))
+                print(f'Você digitou {cont} números e a média foi {media:.2f}\nO maior valor foi {maior} e o menor {menor}')
                 val = 1
             else:
                 break
