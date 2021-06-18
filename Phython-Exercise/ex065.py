@@ -21,15 +21,12 @@ while val == 0:
                         menor = num
                     elif num > maior:
                         maior = num
-            try: 
-                opcao == 'N':
+            if opcao == 'N':
                 media = acum/cont
                 print('Você digitou {} números e a média foi {:.2f}\nO maior valor foi {} e o menor {}'.format(cont,media,maior,menor))
                 val = 1
-            except ValueError:
-                print('Opção Inválida')
-                
+            else:
+                break
     except ValueError:
         print('Opção inválida')
         val = 0
-        
