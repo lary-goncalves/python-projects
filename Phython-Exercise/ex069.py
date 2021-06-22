@@ -4,7 +4,7 @@ while True:
     print('-'*50)
     print(' '*15,'CADASTRE UMA PESSOA')
     print('-'*50)
-    idade = 0
+    idade = 999
     while idade > 120:
         idade = int(input('Idade: '))
     sexo = ' '
