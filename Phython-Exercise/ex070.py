@@ -5,16 +5,13 @@ print(' '*15,'LOJA SUPER BARATÃO')
 print('-'*50)
 while True:
     produto = str(input('Nome do Produto: '))
-    preco = float(input('Preço: '))
+    preco = float(input('Preço: R$ '))
     total += preco
-    if menor == 0 and NomeMenor == ' ':
+    if menor == 0 and NomeMenor == ' 'or preco < menor:
         menor = preco
         NomeMenor = produto
     if preco > 1000:
         cont +=1
-    if preco < menor:
-        menor = preco
-        NomeMenor = produto
     opcao = ' '
     while opcao not in 'SN':
         opcao = str(input('Deseja continuar? [S/N] ')).strip().upper()[0]
