@@ -7,7 +7,7 @@ while True:
     produto = str(input('Nome do Produto: '))
     preco = float(input('Preço: R$ '))
     total += preco
-    if menor == 0 and NomeMenor == ' 'or preco < menor:
+    if menor == 0 and NomeMenor == ' ' or preco < menor:
         menor = preco
         NomeMenor = produto
     if preco > 1000:
