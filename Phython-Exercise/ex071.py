@@ -7,6 +7,7 @@ while True:
     while valor >= 50:
         valor-=50
         c50+=1
+    
     while valor >=20:
         valor-=20
         c20+=1
