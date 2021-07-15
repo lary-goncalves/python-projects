@@ -3,7 +3,7 @@ print (f'\nVocê digitou os números {numeros}')
 print (f'O numero 9 repetiu {numeros.count(9)} vezes')
 
 try: 
-    posição = numeros.index(3)
+    3 in numeros
     print (f'O valor 3 apareceu na {numeros.index(3)+1}ª posição')
 except ValueError:
     print('O número 3 não foi digitado')
