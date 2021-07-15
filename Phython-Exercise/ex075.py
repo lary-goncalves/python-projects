@@ -1,8 +1,4 @@
-a = int (input('Digite um número: '))
-b = int (input('Digite outro número: '))
-c = int (input('Digite mais um número: '))
-d = int (input('Digite o último número: '))
-numeros = (a, b, c, d)
+numeros = (int (input('Digite um número: ')), int (input('Digite outro número: ')), int (input('Digite mais um número: ')), int (input('Digite o último número: ')))
 
 print (f'\nVocê digitou os números {numeros}')
 print (f'O numero 9 repetiu {numeros.count(9)} vezes')
