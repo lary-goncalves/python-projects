@@ -1,10 +1,5 @@
 from random import randint
-a = randint(0,9)
-b = randint(0,9)
-c = randint(0,9)
-d = randint(0,9)
-e = randint(0,9)
-numeros = (a,b,c,d,e)
+numeros = (randint(0,9),randint(0,9),randint(0,9),randint(0,9),randint(0,9))
 print(f'Os valores sorteados foram: {numeros[0]} {numeros[1]} {numeros[2]} {numeros[3]} {numeros[4]}')
-print(f'O maior valor sorteado foi: {max(numeros,key=int)}')
-print(f'O menor valor sorteado foi: {min(numeros,key=int)}')
+print(f'O maior valor sorteado foi: {max(numeros)}')
+print(f'O menor valor sorteado foi: {min(numeros)}')
