@@ -7,5 +7,5 @@ for c in range(0,len(precos)):
     if c % 2 == 0:
         print(f'{precos[c]:.<40}R$',end=' ')
     else:
-        print(f'{precos[c]:.2f}')
+        print(f'{precos[c]:>7.2f}')
 print ('-'*50)
